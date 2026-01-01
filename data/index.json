@@ -21,13 +21,13 @@
     {
       "id": "b-2",
       "title": "Divan E Shams",
-      "author": "Shams Tabarezi",
+      "author": "Maulana Jalaluddin Rumi",
       "coverUrl": "assets/books/divan-e-shams.jpg",
-      "pdfUrl": "scholars/shams-tabarezi/divan-e-shams/book.pdf",
+      "pdfUrl": "scholars/maulana-jalaluddin-rumi/divan-e-shams/Divan-E-Shams.pdf",
       "rating": 4.5,
       "pages": 300,
       "volumes": [
-        "scholars/shams-tabarezi/divan-e-shams/book.pdf"
+        "scholars/maulana-jalaluddin-rumi/divan-e-shams/Divan-E-Shams.pdf"
       ]
     }
   ],
@@ -42,10 +42,10 @@
       ]
     },
     {
-      "id": "s-shams-tabarezi",
-      "name": "Shams Tabarezi",
+      "id": "s-maulana-jalaluddin-rumi",
+      "name": "Maulana Jalaluddin Rumi",
       "bio": "Islamic scholar and author",
-      "avatarUrl": "assets/scholars/shams-tabarezi.png",
+      "avatarUrl": "assets/scholars/maulana-jalaluddin-rumi.png",
       "books": [
         "b-2"
       ]
