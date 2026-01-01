@@ -1,0 +1,58 @@
+{
+  "scholars": [
+    {
+      "id": "imam-muhammad-bin-jarir-al-tabari",
+      "name": "Imam Muhammad bin Jarir Al Tabari",
+      "books": [
+        {
+          "title": "Collected Works",
+          "volumes": [
+            {
+              "title": "Tareekh-e-Tabri-1-of-7",
+              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-1-of-7.pdf"
+            },
+            {
+              "title": "Tareekh-e-Tabri-2-of-7",
+              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-2-of-7.pdf"
+            },
+            {
+              "title": "Tareekh-e-Tabri-3-of-7",
+              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-3-of-7.pdf"
+            },
+            {
+              "title": "Tareekh-e-Tabri-4-of-7",
+              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-4-of-7.pdf"
+            },
+            {
+              "title": "Tareekh-e-Tabri-5-of-7",
+              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-5-of-7.pdf"
+            },
+            {
+              "title": "Tareekh-e-Tabri-6-of-7",
+              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-6-of-7.pdf"
+            },
+            {
+              "title": "Tareekh-e-Tabri-7-of-7",
+              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-7-of-7.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shams-tabarezi",
+      "name": "Shams Tabarezi",
+      "books": [
+        {
+          "title": "Collected Works",
+          "volumes": [
+            {
+              "title": "Divan-e Shams-e Tabrizi Volume1_copy",
+              "pdf": "scholars/Shams Tabarezi/Divan-e Shams-e Tabrizi Volume1_copy.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
