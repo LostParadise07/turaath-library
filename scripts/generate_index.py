@@ -5,6 +5,10 @@ import re
 BASE_DIR = "scholars"
 OUTPUT = "data/index.json"
 
+REPO = "LostParadise07/turaath-library"
+RELEASE_TAG = "v1.0"
+RELEASE_BASE = f"https://github.com/{REPO}/releases/download/{RELEASE_TAG}"
+
 def slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
@@ -36,8 +40,9 @@ if os.path.exists(BASE_DIR):
             book_id = f"b-{book_counter}"
             book_counter += 1
 
-            volume_paths = [
-                f"{BASE_DIR}/{scholar_folder}/{book_folder}/{pdf}"
+            # 🔑 GitHub Release URLs
+            volume_urls = [
+                f"{RELEASE_BASE}/{pdf}"
                 for pdf in pdfs
             ]
 
@@ -46,10 +51,10 @@ if os.path.exists(BASE_DIR):
                 "title": book_folder.replace("-", " ").title(),
                 "author": scholar_folder.replace("-", " ").title(),
                 "coverUrl": f"assets/books/{slugify(book_folder)}.jpg",
-                "pdfUrl": volume_paths[0],
+                "pdfUrl": volume_urls[0],
                 "rating": 4.5,
                 "pages": 300,
-                "volumes": volume_paths
+                "volumes": volume_urls
             })
 
             scholar_books.append(book_id)
@@ -75,4 +80,4 @@ os.makedirs("data", exist_ok=True)
 with open(OUTPUT, "w", encoding="utf-8") as f:
     json.dump(library, f, ensure_ascii=False, indent=2)
 
-print("index.json generated (only real data included)")
+print("index.json generated with GitHub Release URLs")
