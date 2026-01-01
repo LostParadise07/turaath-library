@@ -75,4 +75,4 @@ os.makedirs("data", exist_ok=True)
 with open(OUTPUT, "w", encoding="utf-8") as f:
     json.dump(library, f, ensure_ascii=False, indent=2)
 
-print("✅ index.json generated (only real data included)")
+print("index.json generated (only real data included)")
