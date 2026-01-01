@@ -4,9 +4,11 @@ on:
   push:
     paths:
       - "scholars/**"
+      - "assets/**"
+      - "scripts/**"
 permissions:
   contents: write
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
