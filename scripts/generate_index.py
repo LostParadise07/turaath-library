@@ -30,7 +30,6 @@ if os.path.exists(BASE_DIR):
                 if f.lower().endswith(".pdf")
             )
 
-            # ❌ No PDFs → skip book
             if not pdfs:
                 continue
 
@@ -55,7 +54,6 @@ if os.path.exists(BASE_DIR):
 
             scholar_books.append(book_id)
 
-        # ❌ Scholar with NO books → skip scholar
         if not scholar_books:
             continue
 
@@ -67,7 +65,6 @@ if os.path.exists(BASE_DIR):
             "books": scholar_books
         })
 
-# 🔥 Build final JSON ONLY with existing data
 library = {}
 if books:
     library["books"] = books
