@@ -1,57 +1,53 @@
 {
-  "scholars": [
+  "books": [
     {
-      "id": "imam-muhammad-bin-jarir-al-tabari",
-      "name": "Imam Muhammad bin Jarir Al Tabari",
-      "books": [
-        {
-          "title": "Collected Works",
-          "volumes": [
-            {
-              "title": "Tareekh-e-Tabri-1-of-7",
-              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-1-of-7.pdf"
-            },
-            {
-              "title": "Tareekh-e-Tabri-2-of-7",
-              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-2-of-7.pdf"
-            },
-            {
-              "title": "Tareekh-e-Tabri-3-of-7",
-              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-3-of-7.pdf"
-            },
-            {
-              "title": "Tareekh-e-Tabri-4-of-7",
-              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-4-of-7.pdf"
-            },
-            {
-              "title": "Tareekh-e-Tabri-5-of-7",
-              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-5-of-7.pdf"
-            },
-            {
-              "title": "Tareekh-e-Tabri-6-of-7",
-              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-6-of-7.pdf"
-            },
-            {
-              "title": "Tareekh-e-Tabri-7-of-7",
-              "pdf": "scholars/Imam Muhammad bin Jarir Al Tabari/Tareekh-e-Tabri-7-of-7.pdf"
-            }
-          ]
-        }
+      "id": "b-1",
+      "title": "Tareekh E Tabari",
+      "author": "Imam Muhammad Bin Jarir Al Tabari",
+      "coverUrl": "assets/books/tareekh-e-tabari.jpg",
+      "pdfUrl": "scholars/imam-muhammad-bin-jarir-al-tabari/tareekh-e-tabari/Vol-1.pdf",
+      "rating": 4.5,
+      "pages": 300,
+      "volumes": [
+        "scholars/imam-muhammad-bin-jarir-al-tabari/tareekh-e-tabari/Vol-1.pdf",
+        "scholars/imam-muhammad-bin-jarir-al-tabari/tareekh-e-tabari/Vol-2.pdf",
+        "scholars/imam-muhammad-bin-jarir-al-tabari/tareekh-e-tabari/Vol-3.pdf",
+        "scholars/imam-muhammad-bin-jarir-al-tabari/tareekh-e-tabari/Vol-4.pdf",
+        "scholars/imam-muhammad-bin-jarir-al-tabari/tareekh-e-tabari/Vol-5.pdf",
+        "scholars/imam-muhammad-bin-jarir-al-tabari/tareekh-e-tabari/Vol-6.pdf",
+        "scholars/imam-muhammad-bin-jarir-al-tabari/tareekh-e-tabari/Vol-7.pdf"
       ]
     },
     {
-      "id": "shams-tabarezi",
-      "name": "Shams Tabarezi",
+      "id": "b-2",
+      "title": "Divan E Shams",
+      "author": "Shams Tabarezi",
+      "coverUrl": "assets/books/divan-e-shams.jpg",
+      "pdfUrl": "scholars/shams-tabarezi/divan-e-shams/book.pdf",
+      "rating": 4.5,
+      "pages": 300,
+      "volumes": [
+        "scholars/shams-tabarezi/divan-e-shams/book.pdf"
+      ]
+    }
+  ],
+  "scholars": [
+    {
+      "id": "s-imam-muhammad-bin-jarir-al-tabari",
+      "name": "Imam Muhammad Bin Jarir Al Tabari",
+      "bio": "Islamic scholar and author",
+      "avatarUrl": "assets/scholars/imam-muhammad-bin-jarir-al-tabari.png",
       "books": [
-        {
-          "title": "Collected Works",
-          "volumes": [
-            {
-              "title": "Divan-e Shams-e Tabrizi Volume1_copy",
-              "pdf": "scholars/Shams Tabarezi/Divan-e Shams-e Tabrizi Volume1_copy.pdf"
-            }
-          ]
-        }
+        "b-1"
+      ]
+    },
+    {
+      "id": "s-shams-tabarezi",
+      "name": "Shams Tabarezi",
+      "bio": "Islamic scholar and author",
+      "avatarUrl": "assets/scholars/shams-tabarezi.png",
+      "books": [
+        "b-2"
       ]
     }
   ]
