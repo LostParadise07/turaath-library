@@ -8,7 +8,7 @@ A digital library application for accessing and reading Islamic scholarly works.
 
 You can download the latest Android APK using the link below:
 
-👉 **[Download APK](turaath.apk)**
+👉 **[Download APK](turaath.apk?raw=1)**
 
 > ℹ️ If the download doesn’t start automatically, long-press the link and choose **“Download link”**.
 
