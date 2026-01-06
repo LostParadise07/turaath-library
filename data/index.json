@@ -2,6 +2,18 @@
   "books": [
     {
       "id": "b-1",
+      "title": "Tafsir Ibn Kathir All 10 Volumes",
+      "author": "Abdul Qadir Al Arnaut",
+      "coverUrl": "assets/books/tafsir-ibn-kathir-all-10-volumes.jpg",
+      "pdfUrl": "https://github.com/LostParadise07/turaath-library/releases/download/v1.0/tafsir-ibn-kathir-all-10-volumes.pdf",
+      "rating": 4.5,
+      "pages": 300,
+      "volumes": [
+        "https://github.com/LostParadise07/turaath-library/releases/download/v1.0/tafsir-ibn-kathir-all-10-volumes.pdf"
+      ]
+    },
+    {
+      "id": "b-2",
       "title": "The History Of Al Tabari",
       "author": "Franz Rosenthal",
       "coverUrl": "assets/books/the-history-of-al-tabari.jpg",
@@ -22,7 +34,19 @@
       ]
     },
     {
-      "id": "b-2",
+      "id": "b-3",
+      "title": "The Muqaddimah",
+      "author": "Franz Rosenthal",
+      "coverUrl": "assets/books/the-muqaddimah.jpg",
+      "pdfUrl": "https://github.com/LostParadise07/turaath-library/releases/download/v1.0/the-muqaddimah.pdf",
+      "rating": 4.5,
+      "pages": 300,
+      "volumes": [
+        "https://github.com/LostParadise07/turaath-library/releases/download/v1.0/the-muqaddimah.pdf"
+      ]
+    },
+    {
+      "id": "b-4",
       "title": "Tareekh E Tabari",
       "author": "Imam Muhammad Bin Jarir Al Tabari",
       "coverUrl": "assets/books/tareekh-e-tabari.jpg",
@@ -40,7 +64,7 @@
       ]
     },
     {
-      "id": "b-3",
+      "id": "b-5",
       "title": "Divan E Shams",
       "author": "Maulana Jalaluddin Rumi",
       "coverUrl": "assets/books/divan-e-shams.jpg",
@@ -54,12 +78,22 @@
   ],
   "scholars": [
     {
+      "id": "s-abdul-qadir-al-arnaut",
+      "name": "Abdul Qadir Al Arnaut",
+      "bio": "Islamic scholar and author",
+      "avatarUrl": "assets/scholars/abdul-qadir-al-arnaut.png",
+      "books": [
+        "b-1"
+      ]
+    },
+    {
       "id": "s-franz-rosenthal",
       "name": "Franz Rosenthal",
       "bio": "Islamic scholar and author",
       "avatarUrl": "assets/scholars/franz-rosenthal.png",
       "books": [
-        "b-1"
+        "b-2",
+        "b-3"
       ]
     },
     {
@@ -68,7 +102,7 @@
       "bio": "Islamic scholar and author",
       "avatarUrl": "assets/scholars/imam-muhammad-bin-jarir-al-tabari.png",
       "books": [
-        "b-2"
+        "b-4"
       ]
     },
     {
@@ -77,7 +111,7 @@
       "bio": "Islamic scholar and author",
       "avatarUrl": "assets/scholars/maulana-jalaluddin-rumi.png",
       "books": [
-        "b-3"
+        "b-5"
       ]
     }
   ]
